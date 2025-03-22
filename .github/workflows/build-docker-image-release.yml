@@ -1,9 +1,8 @@
 name: Build and Publish Docker image on release
 
-# Uncomment to use
-#on:
-#  release:
-#      types: [published]
+on:
+  release:
+      types: [published]
 
 jobs:
   build-and-publish:
@@ -23,7 +22,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ github.token }}
 
       - name: Build and push
         uses: docker/build-push-action@v5
