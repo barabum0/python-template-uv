@@ -5,4 +5,3 @@ Feel free to use!
 - [`pyproject.toml`](pyproject.toml.old)
 - [`docker-compose.yml`](docker-compose.yml)
 - [`.github/workflows/build-docker-image-release.yml`](.github/workflows/build-docker-image-release.yml)
-  - **and uncomment the `on` section in this file for it to work**
