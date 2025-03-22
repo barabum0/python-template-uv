@@ -3,13 +3,15 @@ name = "python-template-uv"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = ["Roman Poltorabatko <r.m.poltorabatko@gmail.com>"]
 license = "MIT"
 requires-python = ">=3.13"
 dependencies = []
 
+[project.scripts]
+app = "main:main"
+
 [tool.uv]
-package = false
+package = true
 
 [dependency-groups]
 dev = [
