@@ -1,4 +1,4 @@
-# Template for my Python (non-packages) projects
+# Template for my Python projects
 Feel free to use!
 
 ### Before using, rename the project and docker image in following files
